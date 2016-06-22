@@ -1,2 +1,3 @@
 # BingWallpaper
-用于ubuntu开机设置bing搜索界面的壁纸为系统的壁纸
+设置bing搜索界面的壁纸为系统的壁纸
+采用ubuntu测试成功！
