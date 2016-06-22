@@ -18,6 +18,7 @@ def exitsDir():
 
 def getImgUrl():
 	exitsDir()
+	#n这个参数的值为最多获取几张图片，实际获得的图片数可能少于n
 	url = "http://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=10"
 	conn = urllib.urlopen(url)
 	resp = json.loads(conn.read())
