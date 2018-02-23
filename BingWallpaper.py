@@ -25,7 +25,7 @@ def getImgUrl():
 	imgUrls = []
 	#获取分辨率为1366X768的壁纸
 	for x in range(len(resp['images'])):
-		imgUrls.append(resp['images'][x]['url'].replace('1920x1080','1366x768'))
+		imgUrls.append('http://cn.bing.com'+(resp['images'][x]['url'].replace('1920x1080','1366x768')))
 	imgUrls = list(set(imgUrls))
 	#return resp['images'][0]['url'].replace('1920x1080','1366x768')
 	return imgUrls
